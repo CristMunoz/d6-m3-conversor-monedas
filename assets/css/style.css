@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: rgb(36, 34, 34);
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.border-top-bottom{
+    border-top: 2px solid rgb(5, 149, 189);
+    border-bottom: 2px solid rgb(5, 149, 189);
+    margin: 20px 250px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 0 20px;
+}
+
+.conversor-monedas{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 300px;
+    height: 200px;
+    padding: 0 20px;
+    border-radius: 5px;
+    gap: 7px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+p{
+    color: white;
+    margin-top: 5px;
+}
+
+span{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+button{
+    border: none;
+    background-color: rgb(0, 213, 255);
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: rgb(85, 224, 252);
+}
+
+button:active{
+    background-color: rgb(144, 237, 255);
+}
+
+#grafico-monedas{
+    width: 600px;
+    height: 350px;
+    background-color: rgb(41, 39, 39);
+}
